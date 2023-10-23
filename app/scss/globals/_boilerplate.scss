@@ -2,7 +2,6 @@
 
 html {
   box-sizing: border-box;
-  font-size: 100%;
 }
 
 *,
@@ -18,6 +17,12 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   margin-block-end: 50vh; //* temporary, remove after website is built
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
