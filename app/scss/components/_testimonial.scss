@@ -1,0 +1,59 @@
+@use '../util' as u;
+
+.testimonial {
+  &__wrapper {
+    max-width: u.rem(800);
+  }
+
+  &__icon {
+    width: 16%;
+    max-width: u.rem(78);
+    margin-block-end: clamp(u.rem(20), 0.68rem + 2.42vw, u.rem(40));
+  }
+
+  &__quote {
+    font-size: u.rem(24);
+    font-size: clamp(u.rem(24), 1.16rem + 1.45vw, u.rem(36));
+    font-weight: 700;
+    line-height: 1.25;
+    margin-block-end: u.rem(40);
+  }
+
+  //* Flexbox
+  // &__author-wrapper {
+  //   display: inline-flex;
+  //   gap: 20px 30px;
+  //   flex-wrap: wrap;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+
+  &__author-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, u.rem(120));
+    gap: 20px 30px;
+    align-items: center;
+  }
+
+  &__author {
+    width: u.rem(120);
+    border-radius: 50%;
+
+    @include u.breakpoint-down(xsmall) {
+      grid-column: span 3;
+      justify-self: center;
+    }
+  }
+
+  &__author-caption {
+    grid-column: span 3;
+  }
+
+  &__author-description {
+    margin-block-end: 0;
+
+    @include u.breakpoint-down(xsmall) {
+      text-align: center;
+    }
+  }
+}
