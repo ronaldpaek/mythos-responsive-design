@@ -1,1 +1,1 @@
-# responsive-design-beginners
+# mythos-responsive-design
