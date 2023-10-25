@@ -7,19 +7,10 @@
     display: flex;
     gap: u.rem(40) u.rem(20);
     flex-wrap: wrap;
-
-    // display: grid;
-    // grid-template-columns: repeat(2, 1fr);
-    // gap: u.rem(40) u.rem(20);
-
-    // @include u.breakpoint(medium) {
-    //   grid-template-columns: repeat(4, auto);
-    // }
   }
 
   &__logo {
     flex: 100%;
-    // grid-column: 1 / -1;
   }
 
   &__homelink {
@@ -41,7 +32,6 @@
     flex: calc(50% - u.rem(10));
 
     @include u.breakpoint(medium) {
-      // flex: calc(25% - u.rem(60) / 4);
       flex: auto;
     }
   }

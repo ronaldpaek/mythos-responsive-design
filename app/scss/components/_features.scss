@@ -16,67 +16,6 @@
     }
   }
 
-  //* CSS grid - responsive
-  // &__wrapper {
-  //   display: grid;
-  //   grid-auto-flow: row;
-  //   // grid-template-columns: 1fr;
-  //   justify-items: center;
-  //   gap: 40px 5.5%;
-
-  //   @include u.breakpoint(large) {
-  //     grid-auto-flow: column;
-  //     // grid-template-columns: repeat(3, 1fr);
-  //   }
-  // }
-
-  // &__item {
-  //   text-align: center;
-
-  //   @include u.breakpoint(large) {
-  //     text-align: start;
-  //   }
-  // }
-
-  //* Flexbox - intrinsic
-  // &__wrapper {
-  //   display: flex;
-  //   flex-wrap: wrap;
-  //   justify-content: center;
-  //   gap: 40px 5.5%;
-  // }
-
-  // &__item {
-  //   flex: 0 1 u.rem(346);
-  //   text-align: center;
-
-  //   @include u.breakpoint(large) {
-  //     text-align: start;
-  //   }
-  // }
-
-  //* Flexbox -- media queries
-  // &__wrapper {
-  //   display: flex;
-  //   flex-wrap: wrap;
-  //   justify-content: center;
-  //   gap: 40px;
-
-  //   @include u.breakpoint(large) {
-  //     flex-wrap: nowrap;
-  //     gap: 5.5%;
-  //   }
-  // }
-
-  // &__item {
-  //   text-align: center;
-
-  //   @include u.breakpoint(large) {
-  //     flex: 1;
-  //     text-align: start;
-  //   }
-  // }
-
   &__icon {
     width: auto;
     height: u.rem(48);

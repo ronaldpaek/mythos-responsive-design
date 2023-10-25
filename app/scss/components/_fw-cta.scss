@@ -1,7 +1,6 @@
 @use '../util' as u;
 
 .fw-cta {
-  // @include u.fullwidth;
   background: linear-gradient(
     90deg,
     var(--gradient1),
@@ -16,17 +15,5 @@
       var(--gradient2) 55%,
       var(--gradient3) 110%
     );
-  }
-
-  &__wrapper {
-  }
-
-  &__title {
-  }
-
-  &__desription {
-  }
-
-  &__button {
   }
 }

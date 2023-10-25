@@ -9,10 +9,6 @@
     justify-content: space-between;
     align-items: center;
     padding-block: 12px;
-    //* Flexbox styles
-    // display: flex;
-    // justify-content: space-between;
-    // align-items: center;
 
     @include u.breakpoint(large) {
       padding-block: 20px;
@@ -31,9 +27,6 @@
     display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 20px;
-    //* Flexbox styles
-    // display: flex;
-    // gap: 40px;
 
     @include u.breakpoint(large) {
       gap: 40px;

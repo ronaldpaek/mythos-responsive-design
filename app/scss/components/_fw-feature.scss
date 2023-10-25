@@ -1,7 +1,6 @@
 @use '../util' as u;
 
 .fw-feature {
-  // @include u.fullwidth;
   background-color: var(--fullwidth-bg);
 
   &__image {
